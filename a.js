@@ -1,4 +1,15 @@
-var asmjy = document.getElementById("rectPlyr_Playerlistodi");
+clear();
+var asmjy = document.getElementById("rectPlyr_Playerlistt20");
+var asdf = asmjy.getElementsByTagName("a");
+var asdfext = ".html";
+for(var asdfinc =0 ; asdfinc < asdf.length;asdfinc++){
+  if(asdf[asdfinc].href.indexOf(asdfext)!=-1){
+    console.log(asdf[asdfinc].href);
+  }
+}
+
+clear();
+var asmjy = document.querySelector("table.playersTable");
 var asdf = asmjy.getElementsByTagName("a");
 var asdfext = ".html";
 for(var asdfinc =0 ; asdfinc < asdf.length;asdfinc++){
